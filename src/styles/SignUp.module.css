@@ -1,0 +1,55 @@
+.bodystyle{
+    background-color: rgba(0, 0, 0, 0.05);
+    min-height: 100vh;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.centertitle{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color:aqua; */
+
+}
+
+.signupwindow{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+   max-width:500px;
+   min-height: 300px;
+    overflow:hidden;
+   
+}
+
+
+
+.textbox{
+    padding:10px;
+    width:20rem;
+    margin:10px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.15);;
+    
+}
+
+.textbox::placeholder{
+    outline: none !important;
+    color: rgba(0, 0, 0, 0.45);;
+}
+
+.submitbtn{
+    /* width:90%; */
+    margin:30px;
+    outline: none;
+    padding:0.5rem;
+    background-color: rgba(0, 0, 0, 0.60) ;
+    color:white
+}
+.imagesize{
+    height:100px;
+    width:100px;
+    margin:20px 0;
+}
